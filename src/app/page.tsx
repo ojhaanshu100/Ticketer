@@ -88,7 +88,7 @@ if (email === "" || !email.endsWith(".ee.24@nitj.ac.in")) {
     <div className="flex flex-col justify-center items-center">
      <h1 className="text-3xl font-bold text-center p-4 text-white">Fresher&apos;s Party 2024 Batch - Roulette</h1>
 
-     <p className="text-gray-400 text-lg text-center">Login to Generate Your Ticket</p>
+     <p className="text-gray-400 text-lg text-center">Enter details to generate your ticket</p>
 
 
       <form className="flex w-96 flex-col gap-4 items-center justify-center m-2 p-2">
