@@ -153,13 +153,16 @@ if (email === "" || !email.endsWith(".ee.24@nitj.ac.in")) {
         </select>
         {errors.gender && <p className="text-red-500">{errors.gender}</p>}
 
-        <input
-          type="file"
-          name="image"
-          accept="image/*"
-          onChange={handleInputChange}
-          className="w-96 p-2 bg-white rounded-lg"
-        />
+        <div class="flex items-center space-x-4">
+  <label class="text-gray-700 font-medium">Profile Photo</label>
+  <input
+    type="file"
+    name="image"
+    accept="image/*"
+    onChange={handleInputChange}
+    className="w-96 p-2 bg-white rounded-lg"
+  />
+</div>
 
         <button
           type="button"
